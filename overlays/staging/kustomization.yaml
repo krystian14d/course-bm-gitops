@@ -7,6 +7,10 @@ resources:
 - ../../base
 - frontend.yaml
 - infrastructure.yaml
+
+# remember about moving yours `secret.enc.yaml` file to the directory.
+generators:
+- secret-generator.yaml
   
 patches:
 - patch: |-
